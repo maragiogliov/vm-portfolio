@@ -45,7 +45,9 @@ export default function Example() {
               <h1>V.PORTFOLIO</h1>
             </a>
  
-            <div className="  hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-12 flex-row items-end">
+
+
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900">
                   {item.name}

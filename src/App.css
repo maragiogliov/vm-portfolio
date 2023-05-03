@@ -25,6 +25,7 @@ html, body{
   position: fixed; /* Use "fixed" instead of "absolute" */
   width: 100%; /* Use "100%" instead of "10rem" */
   height: 3rem;
+  z-index: 10;
 }
 
 
