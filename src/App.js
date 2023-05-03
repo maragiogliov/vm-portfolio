@@ -6,8 +6,6 @@ import { useState } from 'react';
 import { ReactComponent as GB_flag } from './assets/GB.svg';
 import { ReactComponent as FR_flag } from './assets/FR.svg';
 import { ReactComponent as DE_flag } from './assets/DE.svg';
-
-
 function App() {
   const [locale, setLocale] = useState(LOCALES.ENGLISH);
   const [selectedLanguage, setSelectedLanguage] = useState(LOCALES.ENGLISH);

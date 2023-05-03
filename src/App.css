@@ -21,8 +21,8 @@ html, body{
   justify-content: space-evenly;
 
   background-color: rgba(0, 0, 0, 0.327);
-  top: 0.5rem;
-  right: 1rem;
+  bottom: 0;
+  right: 0;
   position: absolute;
   width: 10rem;
   height: 3rem;
