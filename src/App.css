@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.buttons-language-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color: rgba(0, 0, 0, 0.327);
+  top: 0.5rem;
+  right: 1rem;
+  position: absolute;
+  width: 10rem;
+  height: 3rem;
+
+}
+
+.buttons-language-container button{
+  height: 2.4rem;
+}
+
+.buttons_languages{
+  
+  margin-bottom: -10px;
+ height: auto;
+  width: 1.6rem;
+}
+.active {
+  border-bottom: 2px solid greenyellow;
+}
+

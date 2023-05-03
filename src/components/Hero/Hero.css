@@ -1,0 +1,18 @@
+:root {
+    --heightIcons: 1.6rem;
+  }
+
+.HeroHeader{
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+}
+
+.Magnify{
+    height:  var(--heightIcons);
+    margin-right: 0.5rem;
+}
+    
+
+.ShoppingCart{
+    height:  var(--heightIcons)}
