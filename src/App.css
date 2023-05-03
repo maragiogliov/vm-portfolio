@@ -15,19 +15,18 @@ html, body{
   overflow-x: hidden;
 }
 
-.buttons-language-container{
+.buttons-language-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 
   background-color: rgba(0, 0, 0, 0.327);
   bottom: 0;
-  right: 0;
-  position: absolute;
-  width: 10rem;
+  position: fixed; /* Use "fixed" instead of "absolute" */
+  width: 100%; /* Use "100%" instead of "10rem" */
   height: 3rem;
-
 }
+
 
 .buttons-language-container button{
   height: 2.4rem;
