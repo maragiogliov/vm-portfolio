@@ -34,7 +34,6 @@ const Contact = () => {
   return (
     <>
     <section className="container-form">
-
     <section className="animation-contact">
     <Animation/>
     </section>
@@ -49,6 +48,7 @@ const Contact = () => {
         <input className="button-send-contact" type="submit" value="Send" />
       </form>
     </StyledContactForm>
+<h1>Contact Me</h1>
     </section>
     </>
   );

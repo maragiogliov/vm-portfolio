@@ -7,7 +7,7 @@
 
 .animation-contact{
 
- height: 50vh;
+ height: calc(100vh - 3rem);
  background-color: #ffffff;
 }
 

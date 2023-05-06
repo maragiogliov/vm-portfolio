@@ -1,8 +1,9 @@
 import './App.css';
 import '@tailwindcss/forms'
-import Block1 from '../src/components/Block1/Block1'
+import Landing from './components/Landing/Landing'
 import Header from '../src/components/Header/Header'
 import Projects from '../src/components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 import { I18nProvider, LOCALES } from './i18n';
 import { useState } from 'react';
 import { ReactComponent as GB_flag } from './assets/GB.svg';
@@ -48,8 +49,9 @@ function App() {
         </section>
 
         <Header/>
-        <Block1/>
+        <Landing/>
         <Projects/>
+        <Contact/>
     </I18nProvider>
     </>
   );

@@ -1,13 +1,13 @@
 import React from 'react'
 import translate from '../../i18n/translate';
-import './Block1.css';
+import './landing.css';
 
 
     
-    export default function Block1() {
+    export default function Landing() {
       return (
         <>
-          <section className='Block1'>
+          <section className='landing'>
             <h1>
             {translate("Portfolio")}
               
