@@ -9,14 +9,30 @@ import './Block1.css';
         <>
           <section className='Block1-2'>
             <h1>
-            {translate("Natural Taste of Sicily")}
+            {translate("Portfolio")}
               
             </h1>
             <p>
-            {translate("With over 50 years of family farm tradition, CDE elevate your cooking with our organic extra virgin olive oil.")}          
+            {translate("Hola, I'am")}          
             </p>
+            <h2>
+            {translate("Victor")}
+              
+            </h2>
+            <h2>
+            {translate("Junior Web Developer")}
+              
+            </h2>
+            <h3>
+            {translate("Based in Berlin, Germany")}
+              
+            </h3>
             <button>
-              {translate("Shop Olives")}
+              {translate("Download CV")}
+          
+            </button>
+            <button>
+              {translate("CV herunterladen")}
           
             </button>
 
