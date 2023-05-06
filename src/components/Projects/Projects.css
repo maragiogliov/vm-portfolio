@@ -1,6 +1,6 @@
 .projects-container{
     width: 100%;
     height: calc(100vh - 3rem);
-    background-color: blue;
+    background-color: rgb(74, 83, 139);
     color: white;
 }

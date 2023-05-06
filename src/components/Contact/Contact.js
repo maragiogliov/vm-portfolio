@@ -33,22 +33,25 @@ const Contact = () => {
 
   return (
     <>
-    <section className="container-form">
-    <section className="animation-contact">
-    <Animation/>
+  
+    <section className="contact-container-form">
+      <h1>Contact Me</h1>
+      <StyledContactForm>
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input className="button-send-contact" type="submit" value="Send" />
+        </form>
+      </StyledContactForm>
     </section>
-    <StyledContactForm>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input className="button-send-contact" type="submit" value="Send" />
-      </form>
-    </StyledContactForm>
-<h1>Contact Me</h1>
+    <section className="contact-container-buttons">
+      <div className="contact-button"> <h1>GITHUB</h1></div>
+      <div className="contact-button"> <h1>LINKEDIN</h1></div>
+      <div className="contact-button"> <h1>BEHANCE</h1></div>
     </section>
     </>
   );
