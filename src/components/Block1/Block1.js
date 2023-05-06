@@ -7,7 +7,7 @@ import './Block1.css';
     export default function Block1() {
       return (
         <>
-          <section className='Block1-2'>
+          <section className='Block1'>
             <h1>
             {translate("Portfolio")}
               

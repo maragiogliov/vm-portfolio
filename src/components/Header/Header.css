@@ -1,11 +1,13 @@
 .header-container{
     height: 3rem;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.596);
     color: black;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    position: fixed;
   }
