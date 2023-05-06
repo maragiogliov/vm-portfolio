@@ -1,0 +1,6 @@
+.projects-container{
+    width: 100%;
+    height: calc(100vh - 3rem);
+    background-color: blue;
+    color: white;
+}
