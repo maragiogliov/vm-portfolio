@@ -1,7 +1,7 @@
 .header-container{
     height: 3rem;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(99, 43, 43);
     color: black;
 
     display: flex;
@@ -10,4 +10,5 @@
     justify-content: space-around;
 
     position: fixed;
+
   }

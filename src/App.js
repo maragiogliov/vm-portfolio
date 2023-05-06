@@ -1,6 +1,8 @@
 import './App.css';
 import '@tailwindcss/forms'
-import Hero from './components/Hero/Hero'
+import Block1 from '../src/components/Block1/Block1'
+import Header from '../src/components/Header/Header'
+import Projects from '../src/components/Projects/Projects';
 import { I18nProvider, LOCALES } from './i18n';
 import { useState } from 'react';
 import { ReactComponent as GB_flag } from './assets/GB.svg';
@@ -45,7 +47,9 @@ function App() {
           </button>
         </section>
 
-        <Hero/>
+        <Header/>
+        <Block1/>
+        <Projects/>
     </I18nProvider>
     </>
   );
