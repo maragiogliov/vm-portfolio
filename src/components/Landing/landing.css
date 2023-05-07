@@ -33,7 +33,8 @@
   font-family: 'Orbitron', sans-serif;
   font-size: 4.8rem;
   animation: slideInFromTop 1s ease-in-out;
-  background-color: darkorange;
+  /* background-color: darkorange; */
+  margin-bottom: var(--spacing-xxl);
 }
 @keyframes slideInFromTop {
   from {
@@ -45,20 +46,22 @@
 }
 /* -------------------------------------------------------- */
 .landing-hola{
-  font-size: 2rem;
-  background-color: violet;
+  /* background-color: violet; */
+  margin-bottom: var(--spacing-sm);
 }
 /* -------------------------------------------------------- */
 .landing-name{
   font-size: 2rem;
-  background-color: rgb(87, 90, 89);
+  /* background-color: rgb(87, 90, 89);*/
+  margin-bottom: var(--spacing-lg);
 }
 /* -------------------------------------------------------- */
 .landing-profession{
   font-size: 2.3rem;
   margin: 0;
   animation: slideInFromBottom 1s ease-in-out;
-  background-color: aquamarine;
+  /* background-color: aquamarine;*/
+  margin-bottom: var(--spacing-xxs);
 }
 @keyframes slideInFromBottom {
     from {
@@ -70,8 +73,9 @@
   }
 /* -------------------------------------------------------- */
 .landing-location{
-  font-size: 2rem;
-  background-color: rgb(127, 155, 255);
+  font-size: 1rem;
+  /* background-color: rgb(127, 155, 255);*/
+  margin-bottom: var(--spacing-lg);
 }
 /* -------------------------------------------------------- */
 .buttons-container {
@@ -80,7 +84,7 @@
   align-items: center;
   justify-content: space-around;
   width: 90%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .download-button {
   font-weight: bold;
@@ -90,8 +94,8 @@
   padding: 0.75rem 1.5rem;
   cursor: pointer;
   transition: all 0.3s;
-  width: 150px; 
-  font-size: 0.7rem;
+  width: 190px; 
+  font-size: 1rem;
 }
 .download-button:hover {
   background-color: rgba(251, 159, 0, 0.695);
