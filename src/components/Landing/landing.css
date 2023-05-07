@@ -95,7 +95,7 @@
   cursor: pointer;
   transition: all 0.3s;
   width: 190px; 
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .download-button:hover {
   background-color: rgba(251, 159, 0, 0.695);
