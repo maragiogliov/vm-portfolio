@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
-.landing {
+/* -------------------------------------------------------- */
+.landing-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   width: 100vw;
   height: calc(100vh - 3rem);
-  background-color: rgb(5, 0, 68);
-  color: rgb(255, 255, 255);
-  font-family: 'Roboto', sans-serif;
   margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: rgb(11, 0, 12);
+  color: rgb(255, 255, 255);
+
+  font-family: 'Roboto', sans-serif;
   animation: fadeIn 3s ease-in-out;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -24,14 +28,13 @@
     opacity: 1;
   }
 }
-
+/* -------------------------------------------------------- */
 .landing-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: 8rem;
-  margin-bottom: 0.5rem;
+  font-size: 4.8rem;
   animation: slideInFromTop 1s ease-in-out;
+  background-color: darkorange;
 }
-
 @keyframes slideInFromTop {
   from {
     transform: translateY(-100%);
@@ -40,72 +43,60 @@
     transform: translateY(0);
   }
 }
-@media only screen and (max-width: 600px) {
-    .landing-title {
-        font-size: 4rem;
-    }
-  }
-
-h2 {
-    font-size: clamp(2rem, 2vw, 3rem); /* min: 2rem, preferred: 4vw, max: 5rem */
+/* -------------------------------------------------------- */
+.landing-hola{
+  font-size: 2rem;
+  background-color: violet;
+}
+/* -------------------------------------------------------- */
+.landing-name{
+  font-size: 2rem;
+  background-color: rgb(87, 90, 89);
+}
+/* -------------------------------------------------------- */
+.landing-profession{
+  font-size: 2.3rem;
   margin: 0;
   animation: slideInFromBottom 1s ease-in-out;
+  background-color: aquamarine;
 }
-
 @keyframes slideInFromBottom {
-  from {
-    transform: translateY(100%);
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
   }
-  to {
-    transform: translateY(0);
-  }
+/* -------------------------------------------------------- */
+.landing-location{
+  font-size: 2rem;
+  background-color: rgb(127, 155, 255);
 }
-
-h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  animation: fadeInUp 1s ease-in-out;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
+/* -------------------------------------------------------- */
 .buttons-container {
   display: flex;
-  justify-content: center;
-  width: 100%;
-
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  background-color: blue;
 }
-
 .download-button {
-  font-size: 1.2rem;
   font-weight: bold;
   color: rgb(255, 255, 255);
   background-color: rgb(251, 159, 0);
   border: none;
   padding: 0.75rem 1.5rem;
-  margin-bottom: 1rem;
   cursor: pointer;
   transition: all 0.3s;
-  width: 230px; 
-   margin-right: 2rem;
-
+  width: 150px; 
+  font-size: 0.7rem;
 }
-
 .download-button:hover {
-    background-color: rgba(251, 159, 0, 0.695);
-
-    transform: scale(1.05);
+  background-color: rgba(251, 159, 0, 0.695);
+  transform: scale(1.05);
 }
-
 .download-button:focus {
   outline: none;
 }
