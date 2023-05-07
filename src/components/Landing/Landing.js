@@ -4,9 +4,9 @@ import './landing.css';
 export default function Landing() {
   return (
     <section className='landing'>
-      <h1>Portfolio</h1>
-      <p>Hola, I'am</p>
-      <h2>Victor</h2>
+      <h1 className='landing-title'>Portfolio</h1>
+      <h6>Hola, I'am</h6>
+      <h5>Victor Maragioglio</h5>
       <h2>Junior Web Developer</h2>
       <h3>Based in Berlin, Germany</h3>
       <div className='buttons-container'>
