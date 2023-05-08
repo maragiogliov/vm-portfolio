@@ -30,7 +30,7 @@
 /* -------------------------------------------------------- */
 .landing-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: 6rem;
+  font-size: 5.5rem;
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
   margin-bottom: var(--spacing-xxl);
