@@ -110,7 +110,7 @@
   border: 2px solid white;
 }
 .download-button:hover {
-  background-color: rgb(42, 227, 85);
+  background-color:rgba(47, 255, 217, 0.84);
   transform: scale(1.05);
 }
 .download-button:focus {

@@ -34,7 +34,7 @@ const Contact = () => {
     <>
   
     <section className="contact-container-form">
-      <h1>Contact Me</h1>
+      <h1 className="contact-me">Contact Me</h1>
       <StyledContactForm>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <label>Name</label>
@@ -62,7 +62,7 @@ export default Contact;
 const StyledContactForm = styled.div`
   width: 400px;
   form {
-    font-family: 'Elsie', cursive;
+    font-family: 'Orbitron', sans-serif;
 
     margin-top:3rem;
     display: flex;
@@ -78,7 +78,7 @@ const StyledContactForm = styled.div`
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid rgba(47, 255, 217, 0.84);
       }
     }
     textarea {
@@ -92,7 +92,7 @@ const StyledContactForm = styled.div`
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid rgba(47, 255, 217, 0.84);
       }
     }
     label {
@@ -101,9 +101,11 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background-color: rgba(23, 80, 40, 0.88);
+      background-color:rgba(47, 255, 217, 0.84);
       color: white;
       border: none;
+      font-family: 'Orbitron', sans-serif;
+
     }
   }
 `;

@@ -1,7 +1,7 @@
 .contact-container-form{
     width: 100%;
     height: calc(100vh - 3rem);
-    background-color: rgb(31, 54, 169);
+    background-color: rgb(15, 14, 14);
     color: azure;
 
     display: flex;
@@ -9,9 +9,17 @@
     align-items: center;
     justify-content: center;
 }
-
 .contact-form{
+    transition: width 0.3s, background-color 0.3s, padding 0.3s, transform 9s;
+
+}
+.contact-form:hover{
     width: 100%;
+    background-color: rgb(22, 21, 21);
+    padding: 3rem;
+    transform: scale(1.05);
+
+     
 }
 
 .contact-container-buttons{
@@ -28,5 +36,9 @@
     font-size: 3rem
 }
 
-
+.contact-me{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
 
