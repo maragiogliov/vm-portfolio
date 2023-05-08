@@ -23,6 +23,18 @@ export default function About() {
         <p>
         Looking for an extraordinary website or web solution? Let me create captivating, secure, and user-focused designs that boost your business and redefine performance.
         </p>
+<div className='about-years-container'>
+        <h1 className='about-years'>2+ years</h1>
+        <h4 className='about-years-description'>Web Dev Experience</h4>
+
+        <h1 className='about-years'>7+ years</h1>
+        <h4 className='about-years-description'>Traveling and Working Around The World</h4>
+
+        <h1 className='about-years'>10+ years</h1>
+        <h4 className='about-years-description'>Architectural Design</h4>
+</div>
+
+
       </div>
       </>
     )
