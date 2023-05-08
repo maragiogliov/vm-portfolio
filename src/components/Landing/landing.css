@@ -5,7 +5,6 @@
 .landing-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   width: 100vw;
@@ -35,6 +34,7 @@
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
   margin-bottom: var(--spacing-xxl);
+  margin-top: var(--spacing-xxxl);
 }
 @keyframes slideInFromTop {
   from {
@@ -89,12 +89,12 @@
 .download-button {
   font-weight: bold;
   color: rgb(255, 255, 255);
-  background-color: rgb(251, 159, 0);
+  background-color: rgba(0, 251, 184, 0.828);
   border: none;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem;
   cursor: pointer;
   transition: all 0.3s;
-  width: 190px; 
+  min-width: 140px; 
   font-size: 0.8rem;
 }
 .download-button:hover {

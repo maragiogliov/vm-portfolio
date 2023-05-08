@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div className='header-container'>
-          <h1>V.Portfolio</h1>
+          <h1>v.Portfolio</h1>
       </div>
     </>
     )
