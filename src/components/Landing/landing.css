@@ -30,11 +30,11 @@
 /* -------------------------------------------------------- */
 .landing-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: 5.5rem;
+  font-size: 5.2rem;
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
   margin-bottom: var(--spacing-xl);
-  margin-top: var(--spacing-xxxl);
+  margin-top: var(--spacing-xxl);
 }
 @keyframes slideInFromTop {
   from {
@@ -100,7 +100,7 @@
 .download-button {
   font-weight: bold;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 251, 184, 0.245);
+  background-color: rgb(0, 0, 0);
   border: none;
   padding: 1rem;
   cursor: pointer;
@@ -111,7 +111,7 @@
   border: 2px solid white;
 }
 .download-button:hover {
-  background-color: rgba(0, 247, 251, 0.886);
+  background-color: rgb(42, 227, 85);
   transform: scale(1.05);
 }
 .download-button:focus {
