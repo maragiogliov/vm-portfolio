@@ -1,5 +1,8 @@
 import React from 'react';
 import './landing.css';
+import { ReactComponent as BehanceIcon } from '../../assets/behance-icon.svg';
+import { ReactComponent as GithubIcon } from '../../assets/github-icon.svg';
+import { ReactComponent as LinkedinIcon } from '../../assets/linkedin-icon.svg';
 
 export default function Landing() {
   return (
@@ -9,6 +12,13 @@ export default function Landing() {
       <h5 className='landing-name'>Victor</h5>
       <h2 className='landing-profession'>Junior Web Developer</h2>
       <h3 className='landing-location'>Based in Germany</h3>
+
+      <div className="landing-icons-container">
+        <GithubIcon className="icon"/>
+        <LinkedinIcon className="icon"/>
+        <BehanceIcon className="icon" />
+      </div>
+      
       
       <div className='buttons-container'>
         <button className='download-button'>

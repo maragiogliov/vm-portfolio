@@ -1,6 +1,7 @@
 html {
   font-size: 16px; /* Adjust to your preference */
   font-family: 'Roboto', sans-serif; /* Change to your preferred font */
+  background-color: rgb(0, 0, 0);
 }
 
 :root {

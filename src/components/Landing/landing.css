@@ -33,7 +33,7 @@
   font-size: 5.5rem;
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
-  margin-bottom: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xl);
   margin-top: var(--spacing-xxxl);
 }
 @keyframes slideInFromTop {
@@ -79,6 +79,16 @@
   margin-bottom: var(--spacing-lg);
 }
 /* -------------------------------------------------------- */
+.landing-icons-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: var(--spacing-xxl);
+}
+.icon{
+  fill: white;
+  height: 2rem;
+}
+/* -------------------------------------------------------- */
 .buttons-container {
   display: flex;
   flex-direction: row;
@@ -90,14 +100,15 @@
 .download-button {
   font-weight: bold;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 251, 184, 0.828);
+  background-color: rgba(0, 251, 184, 0.245);
   border: none;
   padding: 1rem;
   cursor: pointer;
   transition: all 0.3s;
   min-width: 160px; 
   font-size: var(--spacing-sm);
-  border-radius: 6px
+  border-radius: 6px;
+  border: 2px solid white;
 }
 .download-button:hover {
   background-color: rgba(0, 247, 251, 0.886);
