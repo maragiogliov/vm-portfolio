@@ -82,7 +82,7 @@
 .landing-icons-container{
   display: flex;
   flex-direction: row;
-  margin-bottom: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xl);
 }
 .icon{
   fill: white;
