@@ -33,7 +33,7 @@
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
   margin-bottom: var(--spacing-xl);
-  margin-top: var(--spacing-xxl);
+  margin-top: var(--spacing-xl);
 }
 @keyframes slideInFromTop {
   from {
