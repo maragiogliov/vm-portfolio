@@ -30,7 +30,7 @@
 /* -------------------------------------------------------- */
 .landing-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: 4.8rem;
+  font-size: 6rem;
   animation: slideInFromTop 1s ease-in-out;
   /* background-color: darkorange; */
   margin-bottom: var(--spacing-xxl);
@@ -48,16 +48,17 @@
 .landing-hola{
   /* background-color: violet; */
   margin-bottom: var(--spacing-sm);
+  font-size: var(--spacing-sm);
 }
 /* -------------------------------------------------------- */
 .landing-name{
-  font-size: 2rem;
+  font-size: var(--spacing-xxl);
   /* background-color: rgb(87, 90, 89);*/
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-xs);
 }
 /* -------------------------------------------------------- */
 .landing-profession{
-  font-size: 2.3rem;
+  font-size: var(--spacing-md);
   margin: 0;
   animation: slideInFromBottom 1s ease-in-out;
   /* background-color: aquamarine;*/
@@ -73,7 +74,7 @@
   }
 /* -------------------------------------------------------- */
 .landing-location{
-  font-size: 1rem;
+  font-size: var(--spacing-sm);
   /* background-color: rgb(127, 155, 255);*/
   margin-bottom: var(--spacing-lg);
 }
@@ -94,11 +95,12 @@
   padding: 1rem;
   cursor: pointer;
   transition: all 0.3s;
-  min-width: 140px; 
-  font-size: 0.8rem;
+  min-width: 160px; 
+  font-size: var(--spacing-sm);
+  border-radius: 6px
 }
 .download-button:hover {
-  background-color: rgba(251, 159, 0, 0.695);
+  background-color: rgba(0, 247, 251, 0.886);
   transform: scale(1.05);
 }
 .download-button:focus {
