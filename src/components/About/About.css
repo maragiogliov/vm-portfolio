@@ -1,0 +1,28 @@
+.about-container{
+    width: 100%;
+    height: calc(100vh - 3rem);
+    background-color: rgb(26, 26, 26);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-history{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin-top: var(--spacing-md);
+}
+.about-me{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+.about-victor-image{
+    margin-bottom: var(--spacing-xl);
+
+}

@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-import Animation from "../Animation/Animation";
 import './Contact.css';
 
 // npm i @emailjs/browser
