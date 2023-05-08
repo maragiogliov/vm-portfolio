@@ -48,9 +48,9 @@ const Contact = () => {
       </StyledContactForm>
     </section>
     <section className="contact-container-buttons">
-      <div className="contact-button"> <h1>GITHUB</h1></div>
-      <div className="contact-button"> <h1>LINKEDIN</h1></div>
-      <div className="contact-button"> <h1>BEHANCE</h1></div>
+      <div className="contact-button"> <h1>CREATE</h1></div>
+      <div className="contact-button"> <h1>INSPIRE</h1></div>
+      <div className="contact-button"> <h1>DREAM</h1></div>
     </section>
     </>
   );
@@ -63,7 +63,7 @@ const StyledContactForm = styled.div`
   width: 400px;
   form {
     font-family: 'Orbitron', sans-serif;
-
+color:black;
     margin-top:3rem;
     display: flex;
     align-items: flex-start;
@@ -97,12 +97,14 @@ const StyledContactForm = styled.div`
     }
     label {
       margin-top: 1rem;
+      color:white;
+
     }
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
       background-color:rgba(47, 255, 217, 0.84);
-      color: white;
+      color: black;
       border: none;
       font-family: 'Orbitron', sans-serif;
 

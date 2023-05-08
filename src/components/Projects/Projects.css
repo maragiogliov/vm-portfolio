@@ -1,6 +1,6 @@
 .projects-container{
     width: 100%;
-    height: calc(160vh - 3rem);
+    height: calc(130vh - 3rem);
 
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(190, 190, 190));
 

@@ -42,3 +42,6 @@
     margin-bottom: var(--spacing-xl);
 }
 
+.button-send-contact{
+    width: 150px !important;
+}
