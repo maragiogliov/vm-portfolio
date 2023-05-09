@@ -6,9 +6,9 @@ import './Projects.css';
 export default function Projects() {
   return (
       <>
+      <div className='projects-container'>
       <h4 className='projects-collaborations'>Collaborations </h4>
         <h1 className='projects-recent'>Recent Projects</h1>
-      <div className='projects-container'>
 
         <div className='project-card-container'>
         <h1 className='projects-title'>MOTHERCODE</h1>

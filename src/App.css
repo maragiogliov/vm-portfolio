@@ -14,6 +14,10 @@ html {
   --spacing-xl: 3rem; /* 48px */
   --spacing-xxl: 4rem; /* 64px */
   --spacing-xxxl: 7rem; /* 128px */
+
+  --primary-color: #2fffd9b7;;
+  --secondary-color: #3993fa;;
+  --tertiary-color: #1a1a1a;
 }
 .app-container{
   display: flex;

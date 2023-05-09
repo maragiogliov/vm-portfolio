@@ -54,6 +54,8 @@
   font-size: var(--spacing-xxl);
   /* background-color: rgb(87, 90, 89);*/
   margin-bottom: var(--spacing-xs);
+  color: var(--secondary-color);
+
 }
 /* -------------------------------------------------------- */
 .landing-profession{
@@ -84,7 +86,9 @@
   margin-bottom: var(--spacing-xl);
 }
 .icon{
-  fill: white;
+  fill: var(--secondary-color);
+  color: rgba(47, 255, 217, 0.9);
+
   height: 2rem;
 }
 /* -------------------------------------------------------- */
