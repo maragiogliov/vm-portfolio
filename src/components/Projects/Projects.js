@@ -92,6 +92,8 @@ export default function Projects() {
         {filteredProjects.map((project, index) => (
           <div className='card' key={index}>
             <img src={project.image} alt={project.name} />
+            <div className='card-text-container'> 
+            
             <h2 className='projects-title '>{project.name}</h2>
             <div className='project-description-container'> 
               <p>{project.description}</p>
@@ -102,6 +104,7 @@ export default function Projects() {
                   {technology}
                 </div>
               ))}
+            </div>
             </div>
             <div className='button-container'>
               {project.buttons.map((button, index) => (

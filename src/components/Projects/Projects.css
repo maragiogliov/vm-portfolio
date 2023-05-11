@@ -51,6 +51,7 @@
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-md);
   }
+
 /* -------------------------------------------------------- */
   .card {
     background-color: #000000;
@@ -71,6 +72,16 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+  .card-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
+  .project-description-container{
+    display: flex;
+    text-align: left;
+  }
   /* -------------------------------------------------------- */
   .card img {
     height: auto;
@@ -87,7 +98,7 @@
   .button-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: right;
     width: 100%;
   }
   .button {
@@ -111,7 +122,7 @@
   .chips-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
     width: 100%;
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-md);
@@ -138,9 +149,8 @@
     margin-bottom: 8px;
     cursor: pointer;
   } 
-  .chip.active {
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid var(--secondary-color);
+  .chip-top.active {
+    background-color: #000000;
+    color: #ffffff;
+    border: 4px solid var(--secondary-color);
   }
-    
