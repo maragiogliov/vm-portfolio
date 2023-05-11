@@ -13,7 +13,7 @@
     
     padding-left: 1rem;
     padding-right: 1rem;
-}
+    padding-bottom:var(--spacing-md) ;}
 /* -------------------------------------------------------- */
 .cards-container{
     width: 100%;
@@ -45,18 +45,15 @@
 }
 .projects-title {
     font-size: var(--spacing-md);
-    color:var(--primary-color);
+    color:var(--secondary-color);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
   }
 /* -------------------------------------------------------- */
-.project-description-container{
-    min-height: 200px;
-    margin-top: var(--spacing-sm);
-}
-/* -------------------------------------------------------- */
   .card {
-    background-color: #ffffff;
+    background-color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 16px;
@@ -65,24 +62,28 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
     max-height: 100vh;
+    margin-top: var(--spacing-md);
     transition: transform 0.9s ease;
   }
   .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+  /* -------------------------------------------------------- */
   .card img {
-    max-width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
-  }  
+  }
+  /* -------------------------------------------------------- */
   .card p {
     margin: 0;
-    font-size: 18px;
-    color: #666666;
+    font-size: 16px;
+    color: #c9c9c9;
   }
+  /* -------------------------------------------------------- */
   .button-container {
     display: flex;
     flex-direction: row;
@@ -91,9 +92,10 @@
   }
   .button {
     background-color:none;
-    border: 2px solid black;
-    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 12px 24px;
+    margin-bottom: var(--spacing-sm);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -103,33 +105,42 @@
     transition: background-color 0.3s ease;
   }
   .button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
   }
-    .chips-container {
-      display: flex;
-      flex-wrap: wrap;
-      margin-bottom: 24px;
-    }
+  /* -------------------------------------------------------- */
+  .chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+  }
+  .chip-top {
+    background-color: #e6e6e600;
+    border: 2px solid var(--secondary-color);
+    color:rgb(0, 0, 0);
+    font-size: var(--spacing-sm);
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 12px 24px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  } 
+  .chip {
+    background-color: #e6e6e600;
+    border: 2px solid var(--secondary-color);
+    color:rgb(255, 255, 255);
+    font-size: var(--spacing-sm);
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 12px 24px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  } 
+  .chip.active {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid var(--secondary-color);
+  }
     
-    .chip {
-      background-color: #e6e6e6;
-      color:none;
-      font-size: var(--spacing-sm);
-      font-weight: bold;
-      border-radius: 50px;
-      padding: 12px 24px;
-      margin-right: 8px;
-      margin-bottom: 8px;
-      cursor: pointer;
-    }
-    
-    .chip.active {
-      background-color: #333;
-      color: #fff;
-      border: 1px solid var(--secondary-color);
-    }
-    
-    @media screen and (min-width: 768px) {
-    
-  
-    }

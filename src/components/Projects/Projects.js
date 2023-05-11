@@ -79,7 +79,7 @@ export default function Projects() {
           {uniqueTechnologies.map((technology, index) => (
             <div
               key={index}
-              className={`chip ${
+              className={`chip-top ${
                 technology === selectedTechnology ? 'active' : ''
               }`}
               onClick={() => handleChipClick(technology)}
