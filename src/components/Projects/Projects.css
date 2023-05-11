@@ -14,15 +14,14 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/* -------------------------------------------------------- */
 .cards-container{
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-  
 }
+/* -------------------------------------------------------- */
 .project-card-container{
     display: flex;
     flex-direction: column;
@@ -31,15 +30,12 @@
     width: 100%;
     margin-bottom: var(--spacing-xxl);
 }
-.project-description-container{
-
-  min-height: 200px;
-}
+/* -------------------------------------------------------- */
 .projects-collaborations{
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     margin-top: var(--spacing-md);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .projects-recent{
     font-family: 'Roboto', sans-serif;
@@ -48,26 +44,17 @@
     color: var(--secondary-color)
 }
 .projects-title {
-    font-size: calc(var(--spacing-md) * 1.2);
+    font-size: var(--spacing-md);
+    color:var(--primary-color);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    color:var(--primary-color);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.454), 0px 0px 5px rgba(255, 47, 47, 0.3);
-    letter-spacing: 0.09em;
-    background-color: var(--primary-color);
   }
-  .projects-title-description{
-    font-size: var(--spacing-sm);
-    margin-bottom: var(--spacing-xl);
-    padding: 0.2rem;
-  }
-  .projects-title:first-child {
-    margin-top: var(--spacing-xl);
-  }
-  .projects-title-description{
-    background-color: var(--secondary-color);
-    color: white;
-  }
+/* -------------------------------------------------------- */
+.project-description-container{
+    min-height: 200px;
+    margin-top: var(--spacing-sm);
+}
+/* -------------------------------------------------------- */
   .card {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -87,45 +74,40 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
-		.card img {
-      max-width: 100%;
-      height: 300px;
-			border-radius: 8px;
-			margin-bottom: 16px;
-		}
-		.card h2 {
-			margin: 0;
-			font-size: 24px;
-			color: #333333;
-		}
-		.card p {
-			margin: 0;
-			font-size: 18px;
-			color: #666666;
-			margin-bottom: 16px;
-		}
-		.button-container {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-evenly;
-			width: 100%;
-		}
-		.button {
-			background-color:none;
-			border: 2px solid black;
-			color: rgb(0, 0, 0);
-			padding: 12px 24px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			border-radius: 8px;
-			cursor: pointer;
-			transition: background-color 0.3s ease;
-		}
-		.button:hover {
-			background-color: var(--primary-color);
-		}
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 18px;
+    color: #666666;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .button {
+    background-color:none;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: var(--primary-color);
+  }
     .chips-container {
       display: flex;
       flex-wrap: wrap;

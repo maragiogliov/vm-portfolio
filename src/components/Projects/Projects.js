@@ -92,7 +92,7 @@ export default function Projects() {
         {filteredProjects.map((project, index) => (
           <div className='card' key={index}>
             <img src={project.image} alt={project.name} />
-            <h2>{project.name}</h2>
+            <h2 className='projects-title '>{project.name}</h2>
             <div className='project-description-container'> 
               <p>{project.description}</p>
             </div>
