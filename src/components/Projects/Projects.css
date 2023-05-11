@@ -1,18 +1,22 @@
 .project-container{
-  width: 100%;
-    background-color: rgb(62, 90, 107);
+    width: 100%;
+    background-color: var(--tertiary-color);
 
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     padding-left: 1rem;
     padding-right: 1rem;
 }
 .cards-container{
     width: 100%;
-    background-color: rgb(141, 65, 65);
+    background-image:
+    linear-gradient(0deg, rgba(14, 14, 14, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 25, 25, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px; 
+    background-color: white;
 
     display: flex;
     flex-wrap: wrap;
@@ -20,25 +24,24 @@ align-items: center;
     
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
-
-
 .project-card-container{
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  text-align: right;
-  width: 100%;
-  margin-bottom: var(--spacing-xxl);
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
+    width: 100%;
+    margin-bottom: var(--spacing-xxl);
+}
+.project-description-container{
 
+  min-height: 200px;
 }
 .projects-collaborations{
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     margin-top: var(--spacing-md);
     color: white;
-
 }
 .projects-recent{
     font-family: 'Roboto', sans-serif;
@@ -46,7 +49,6 @@ align-items: center;
     margin-bottom: var(--spacing-xl);
     color: var(--secondary-color)
 }
-
 .projects-title {
     font-size: calc(var(--spacing-md) * 1.2);
     font-family: 'Orbitron', sans-serif;
@@ -54,8 +56,7 @@ align-items: center;
     color:var(--primary-color);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.454), 0px 0px 5px rgba(255, 47, 47, 0.3);
     letter-spacing: 0.09em;
-    background-color: rgba(98, 98, 98, 0.324);
-
+    background-color: var(--primary-color);
   }
   .projects-title-description{
     font-size: var(--spacing-sm);
@@ -66,24 +67,28 @@ align-items: center;
     margin-top: var(--spacing-xl);
   }
   .projects-title-description{
-    background-color: rgba(240, 248, 255, 0.223);
+    background-color: var(--secondary-color);
     color: white;
-    
   }
-
-  		.card {
-			background-color: #ffffff;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-			border-radius: 8px;
-			padding: 16px;
-			margin: 16px;
-			display: flex;
-			flex-direction: column;
-      justify-content:space-between;
-			align-items: center;
-			text-align: center;
-      max-width: 420px;
-		}
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 420px;
+    max-height: 100vh;
+    transition: transform 0.9s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
 		.card img {
       max-width: 100%;
       height: 300px;
@@ -104,13 +109,13 @@ align-items: center;
 		.button-container {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-around;
+			justify-content: space-evenly;
 			width: 100%;
 		}
 		.button {
-			background-color:var(--secondary-color);
-			border: none;
-			color: white;
+			background-color:none;
+			border: 2px solid black;
+			color: rgb(0, 0, 0);
 			padding: 12px 24px;
 			text-align: center;
 			text-decoration: none;
@@ -131,11 +136,11 @@ align-items: center;
     
     .chip {
       background-color: #e6e6e6;
-      color: #333;
-      font-size: 12px;
+      color:none;
+      font-size: var(--spacing-sm);
       font-weight: bold;
       border-radius: 50px;
-      padding: 6px 12px;
+      padding: 12px 24px;
       margin-right: 8px;
       margin-bottom: 8px;
       cursor: pointer;
@@ -144,6 +149,7 @@ align-items: center;
     .chip.active {
       background-color: #333;
       color: #fff;
+      border: 1px solid var(--secondary-color);
     }
     
     @media screen and (min-width: 768px) {

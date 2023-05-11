@@ -8,7 +8,7 @@ import mothercode from '../../assets/mothercode.png'
 const projects = [
   {
     name: 'LENGUAPP',
-    description: 'I conducted a UX research study for a language learning app. The study included a competitive analysis, user interviews, development of user personas and user flow, and wireframing and prototyping. Finally, I conducted usability tests to validate the design.',
+    description: 'I conducted a comprehensive UX research study for a language learning app. The study encompassed competitive analysis, user interviews, development of personas and user flow, wireframing, prototyping, and usability tests to validate the design and ensure optimal user experience.',
     image: imageSrc,
     technologies: [ 'UX Research'],
     buttons: [
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     name: 'CV DESSERTS',
-    description: 'I designed a homemade dessert website for a client in Florida, with a focus on visual appeal and ease of use. The site features mouth-watering photos of the desserts, a simple ordering system, and clear information about the companys values and approach. Its a treat for the eyes and the taste buds!',
+    description: 'I designed a homemade dessert website for a Florida client, emphasizing visual appeal and ease of use. The site showcases appetizing dessert photos, a simple ordering system, and transparent company values. Its a delight for the eyes and taste buds!',
     image: cvDesign,
     technologies: [ 'Shopify', 'UI'],
     buttons: [
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: 'MOTHERCODE',
-    description: 'Our Educational Management Application is a web-based tool designed for the DCI Berlin School final project. The app is built to help students visualize code, track their learning journey, and manage exercises through an interactive calendar. Created by a team of four colleagues, this app streamlines the learning process and empowers students to achieve their educational goals with ease.',
+    description: 'Our Educational Management Application aids DCI Berlin School students in code visualization, learning tracking, and exercise management. Developed by a four-member team, it simplifies learning and empowers students to achieve educational goals effortlessly.',
     image: mothercode,
     technologies: [ 'React','Express', 'Full Stack'],
     buttons: [
@@ -71,7 +71,6 @@ export default function Projects() {
   const uniqueTechnologies = ['All', ...Array.from(new Set(allTechnologies))];
 
   return (
-    <>
     <div className='project-container'>
 
         <h4 className='projects-collaborations'>Collaborations</h4>
@@ -94,7 +93,9 @@ export default function Projects() {
           <div className='card' key={index}>
             <img src={project.image} alt={project.name} />
             <h2>{project.name}</h2>
-            <p>{project.description}</p>
+            <div className='project-description-container'> 
+              <p>{project.description}</p>
+            </div>
             <div className='chips-container'>
               {project.technologies.map((technology, index) => (
                 <div key={index} className='chip'>
@@ -119,9 +120,5 @@ export default function Projects() {
         ))}
       </div>
     </div>
-    </>
-
-
-
   );
 }
