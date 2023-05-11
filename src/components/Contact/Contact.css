@@ -1,13 +1,16 @@
 .contact-container-form{
     width: 100%;
     height: calc(100vh - 3rem);
-    background-color: rgb(167, 235, 29);
+    background-color: var(--primary-color); 
     color: azure;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .contact-form{
     transition: width 0.3s, background-color 0.3s, padding 0.3s, transform 9s;
