@@ -8,10 +8,10 @@ import greenhousecalculator from '../../assets/greenhousecalculator.png'
 
 const projects = [
   {
-    name: 'GREENHOUSECALCULATOR',
+    name: 'GH-CALCULATOR',
     description: 'Designed and developed a B2C carbon footprint calculator using React.js, Redux, and IBM Carbon Design System.',
     image: greenhousecalculator,
-    technologies: [ 'React'],
+    technologies: [ 'React','UI'],
     buttons: [
       {
         text: 'Web',

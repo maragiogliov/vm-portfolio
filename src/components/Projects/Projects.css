@@ -70,7 +70,7 @@
     transition: transform 0.9s ease;
 
     max-width: 400px;
-    min-height: 640px;
+
   }
   .card:hover {
     transform: translateY(-5px);
@@ -89,6 +89,7 @@
   /* -------------------------------------------------------- */
   .card img {
     height: auto;
+    min-height: 300px;
     width: 400px;
     border-radius: 8px;
     object-fit: cover;
@@ -133,6 +134,18 @@
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-md);
   }
+  .chip {
+    background-color: #e6e6e600;
+    border: 2px solid var(--secondary-color);
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  } 
   .chip-top {
     background-color: #e6e6e600;
     border: 2px solid var(--secondary-color);
@@ -143,18 +156,6 @@
     padding: 12px 24px;
     margin-right: 8px;
     margin-bottom: 8px;
-    cursor: pointer;
-  } 
-  .chip {
-    background-color: #e6e6e600;
-    border: 2px solid var(--secondary-color);
-    color:rgb(255, 255, 255);
-    font-size: var(--spacing-sm);
-    font-weight: bold;
-    border-radius: 50px;
-    padding: 12px 24px;
-    margin-bottom: 8px;
-    margin-right: 8px;
     cursor: pointer;
   } 
   .chip-top.active {
