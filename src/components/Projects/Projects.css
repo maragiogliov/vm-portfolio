@@ -19,7 +19,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 /* -------------------------------------------------------- */
 .project-card-container{
@@ -67,6 +68,9 @@
     max-height: 100vh;
     margin-top: var(--spacing-md);
     transition: transform 0.9s ease;
+
+    max-width: 400px;
+    min-height: 640px;
   }
   .card:hover {
     transform: translateY(-5px);
@@ -85,6 +89,7 @@
   /* -------------------------------------------------------- */
   .card img {
     height: auto;
+    width: 400px;
     border-radius: 8px;
     object-fit: cover;
   }
