@@ -8,7 +8,7 @@ import mothercode from '../../assets/mothercode.png'
 const projects = [
   {
     name: 'LENGUAPP',
-    description: 'I conducted a comprehensive UX research study for a language learning app. The study encompassed competitive analysis, user interviews, development of personas and user flow, wireframing, prototyping, and usability tests to validate the design and ensure optimal user experience.',
+    description: 'I conducted a UX research study for a language learning app, including competitive analysis, user interviews, personas, wireframing, prototyping, and usability tests.',
     image: imageSrc,
     technologies: [ 'UX Research'],
     buttons: [
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     name: 'CV DESSERTS',
-    description: 'I designed a homemade dessert website for a Florida client, emphasizing visual appeal and ease of use. The site showcases appetizing dessert photos, a simple ordering system, and transparent company values. Its a delight for the eyes and taste buds!',
+    description: 'I designed a visually appealing dessert website for a Florida client, highlighting ease of use, appetizing photos, simple ordering, and transparent values. A delight for eyes and taste buds!',
     image: cvDesign,
     technologies: [ 'Shopify', 'UI'],
     buttons: [
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: 'MOTHERCODE',
-    description: 'Our Educational Management Application aids DCI Berlin School students in code visualization, learning tracking, and exercise management. Developed by a four-member team, it simplifies learning and empowers students to achieve educational goals effortlessly.',
+    description: 'Our Educational Management App simplifies learning for DCI Berlin School students, enabling code visualization, learning tracking, and exercise management.',
     image: mothercode,
     technologies: [ 'React','Express', 'Full Stack'],
     buttons: [
