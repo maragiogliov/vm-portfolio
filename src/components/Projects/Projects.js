@@ -3,9 +3,22 @@ import './Projects.css';
 import imageSrc from '../../assets/Frame 32.jpg';
 import cvDesign from '../../assets/xvcwebsite.png'
 import mothercode from '../../assets/mothercode.png'
+import greenhousecalculator from '../../assets/greenhousecalculator.png'
 
 
 const projects = [
+  {
+    name: 'GREENHOUSECALCULATOR',
+    description: 'Designed and developed a B2C carbon footprint calculator using React.js, Redux, and IBM Carbon Design System.',
+    image: greenhousecalculator,
+    technologies: [ 'React'],
+    buttons: [
+      {
+        text: 'Web',
+        url: 'https://www.greenhousecalculator.com'
+      }
+    ]
+  },
   {
     name: 'LENGUAPP',
     description: 'I conducted a UX research study for a language learning app, including competitive analysis, user interviews, personas, wireframing, prototyping, and usability tests.',
