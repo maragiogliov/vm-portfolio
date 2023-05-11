@@ -40,7 +40,7 @@
 .projects-recent{
     font-family: 'Roboto', sans-serif;
     font-size: var(--spacing-md);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
     color: var(--secondary-color)
 }
 .projects-title {
@@ -136,6 +136,7 @@
     font-weight: bold;
     border-radius: 50px;
     padding: 12px 24px;
+    margin-right: 8px;
     margin-bottom: 8px;
     cursor: pointer;
   } 
