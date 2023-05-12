@@ -85,6 +85,7 @@
   .project-description-container{
     display: flex;
     text-align: left;
+    min-height: 120px;
   }
   /* -------------------------------------------------------- */
   .card img {
