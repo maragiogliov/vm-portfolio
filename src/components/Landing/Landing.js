@@ -14,10 +14,18 @@ export default function Landing() {
       <h3 className='landing-location'>Based in Germany</h3>
 
       <div className="landing-icons-container">
-        <GithubIcon className="icon"/>
-        <LinkedinIcon className="icon"/>
-        <BehanceIcon className="icon" />
-      </div>
+      <a href="https://github.com/maragiogliov" target="_blank">
+        <GithubIcon className="landing-icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/victor-maragioglio-ba3073214/" target="_blank">
+        <LinkedinIcon className="landing-icon" />
+      </a>
+      <a href="https://www.behance.net/vmaragioglio" target="_blank">
+        <BehanceIcon className="landing-icon" />
+      </a>
+    </div>
+
+
       
       
       <div className='buttons-container'>
