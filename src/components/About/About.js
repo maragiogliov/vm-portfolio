@@ -13,7 +13,7 @@ export default function About() {
         <h1 className='about-me'>About me</h1>
         <div className='about-content'>
           <div className='about-left'>
-            <img src={victorPic} alt="Victor"           className='about-victor-image' />       
+            <img src={victorPic} alt="Victor"className='about-victor-image' />       
           </div>
           <div className='about-right'>
             <h2>Hey!</h2>

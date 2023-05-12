@@ -26,3 +26,8 @@
     color: var(--secondary-color);
   }
 
+  @media only screen and (min-width: 600px) {
+    .header-container{
+      max-width: var(--width-sm);
+    }
+  }

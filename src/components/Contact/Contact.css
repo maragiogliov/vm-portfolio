@@ -1,56 +1,55 @@
 .contact-container-form{
     width: 100%;
     height: calc(100vh - 3rem);
-    background-color: var(--primary-color); 
+    background-color: var(--tertiary-color); 
     color: azure;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.contact-form{
-    transition: width 0.3s, background-color 0.3s, padding 0.3s, transform 9s;
+    padding: 1rem;
+    padding-top: var(--spacing-md);
 
 }
-.contact-form:hover{
+.contact-button-container{
     width: 100%;
-    background-color: rgb(22, 21, 21);
-    padding: 3rem;
-    transform: scale(1.05);
+    height: 5rem;
 
-     
-}
-
-.contact-container-buttons{
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: end;
-
-    width: 100%;
-    height: calc(100vh - 3rem);
-    background-color: rgb(0, 0, 0);
-    color: var(--secondary-color);
-
-    padding-top: var(--spacing-md);
-    padding: 1rem;
+    justify-content: center;
+    align-items:end;
 }
 
-.contact-button{
-    height: calc(100% / 3);
-    font-size: 3rem
+.button-send-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px !important;
+    padding: 1.5rem !important;
+
+    background-color: black !important;
+    border: 3px solid var(--secondary-color) !important;
+
+    color: white !important;
+
+}
+.button-send-contact:hover {
+    background-color: rgb(61, 61, 61) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .contact-me{
     font-family: 'Roboto', sans-serif;
     font-size: var(--spacing-md);
-    margin-bottom: var(--spacing-xl);
+    color: var(--secondary-color);
 }
 
-.button-send-contact{
-    width: 150px !important;
-}
+
+@media only screen and (min-width: 600px) {
+    .contact-container-form{
+      max-width: var(--width-sm);
+    }
+  }

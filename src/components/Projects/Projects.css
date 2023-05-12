@@ -172,3 +172,9 @@
     color: #ffffff;
     border: 4px solid var(--secondary-color);
   }
+
+  @media only screen and (min-width: 600px) {
+    .project-container{
+      max-width: var(--width-sm);
+    }
+  }

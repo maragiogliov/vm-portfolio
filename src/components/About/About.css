@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
   .about-left{
     height: 550px;
@@ -47,7 +47,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 600px;
+    width: 450px;
     height: 550px;
     }
     .about-right h1{
@@ -55,11 +55,11 @@
       ;
     }
     .about-content p {
-      width: 400px;
+      width: 450px;
       font-size: 16px;
     }
     .about-victor-image{
-      height: 550px;
+      height: 450px;
     }
 }
 
@@ -114,4 +114,10 @@
   .about-years:first-child {
     margin-top: var(--spacing-md);
 
+  }
+
+  @media only screen and (min-width: 600px) {
+    .about-container{
+      max-width: var(--width-sm);
+    }
   }

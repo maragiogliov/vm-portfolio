@@ -44,14 +44,12 @@ const Contact = () => {
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message" />
-          <input className="button-send-contact" type="submit" value="Send" />
+          <div className="contact-button-container">
+            <input className="button-send-contact" type="submit" value="Send" />
+          </div>
         </form>
       </StyledContactForm>
-    </section>
-    <section className="contact-container-buttons">
-      <div className="contact-button"> <h1>CREATE</h1></div>
-      <div className="contact-button"> <h1>INSPIRE</h1></div>
-      <div className="contact-button"> <h1>DREAM</h1></div>
+
     </section>
     </>
   );
