@@ -1,6 +1,6 @@
 .contact-container-form{
     width: 100%;
-    min-height: calc(100vh - 3rem);
+    min-height: calc(100vh - 6rem);
     background-color: var(--tertiary-color); 
     color: azure;
 
@@ -10,6 +10,8 @@
 
     padding: 1rem;
     padding-top: var(--spacing-md);
+
+    margin-bottom: 3rem;
 
 }
 .contact-button-container{
