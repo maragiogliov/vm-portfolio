@@ -4,9 +4,26 @@ import imageSrc from '../../assets/Frame 32.jpg';
 import cvDesign from '../../assets/xvcwebsite.png'
 import mothercode from '../../assets/mothercode.png'
 import greenhousecalculator from '../../assets/greenhousecalculator.png'
+import vportfolio from '../../assets/v-portfolio.png'
 
 
 const projects = [
+  {
+    name: 'V.PORTFOLIO',
+    description: 'This is my personal portfolio where you can check my latest work and more about my journey and who I am.',
+    image: vportfolio,
+    technologies: [ 'React','UI'],
+    buttons: [
+      {
+        text: 'Web',
+        url: 'https://vm-portfolio-iota.vercel.app/'
+      },
+      {
+        text: 'Github',
+        url: 'https://github.com/maragiogliov/vm-portfolio'
+      }
+    ]
+  },
   {
     name: 'GH-CALCULATOR',
     description: 'Designed and developed a B2C carbon footprint calculator using React.js, Redux, and IBM Carbon Design System.',

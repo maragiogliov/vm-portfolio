@@ -15,12 +15,16 @@
     padding-right: 1rem;
     padding-bottom:var(--spacing-md) ;}
 /* -------------------------------------------------------- */
-.cards-container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+.cards-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cards-container > .card:not(:last-child) {
+  margin-right: auto;
 }
 /* -------------------------------------------------------- */
 .project-card-container{

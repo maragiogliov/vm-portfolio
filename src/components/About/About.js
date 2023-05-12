@@ -18,12 +18,22 @@ export default function About() {
           <div className='about-right'>
             <h2>Hey!</h2>
             <p>
-            You know, I'm just a Junior Web Developer who happens to like UX/UI Design. It's a passion of mine, and I'm constantly striving to improve. 
+             I'm a Junior Frontend Developer living in Berlin,  creating websites with HTML, SCSS, JavaScrip, React, Express, Node.js, PosgradeSQL.
+
             </p>
             <br/>
             <p>
-            I try my best to combine my design skills with data visualization expertise to create web solutions that I hope are pretty cool. It's a work in progress, but I'm always excited to learn and grow in this field.
+            I enjoy design and I take UX/UI as a fundamental part of the creation of websites, we need research and prototypes. We need to test and iterate. 
             </p>
+            <br/>
+
+            <p>
+            ...and that person is me, creating while flying high in the sky.
+
+
+
+
+</p>
             
           <div className='about-years-container'>
             <h1 className='about-years'>3+ years</h1>
