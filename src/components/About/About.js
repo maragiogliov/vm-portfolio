@@ -11,30 +11,32 @@ export default function About() {
       <div className='about-container'>
         <h4 className='about-history'>My history </h4>
         <h1 className='about-me'>About me</h1>
-        <img src={victorPic} alt="Victor" className='about-victor-image' width={'250px'} height={'250px'} />       
-        <p>
-        As a talented Junior Web Developer with a passion for UX/UI Design, I blend design and data visualization expertise to craft cutting-edge web solutions.
-        </p>
-        <br/>
-        <p>
-        With a solid foundation in Web & Software Development from my studies in Germany, I'm excited to take on diverse web projects and make an impact.
-        </p>
-        <br/>
-        <p>
-        Looking for an extraordinary website or web solution? Let me create captivating, secure, and user-focused designs that boost your business and redefine performance.
-        </p>
-<div className='about-years-container'>
-        <h1 className='about-years'>2+ years</h1>
-        <h4 className='about-years-description'>Web Dev Experience</h4>
+        <div className='about-content'>
+          <div className='about-left'>
+            <img src={victorPic} alt="Victor"           className='about-victor-image' />       
+          </div>
+          <div className='about-right'>
+            <h2>Hey!</h2>
+            <p>
+            You know, I'm just a Junior Web Developer who happens to like UX/UI Design. It's a passion of mine, and I'm constantly striving to improve. 
+            </p>
+            <br/>
+            <p>
+            I try my best to combine my design skills with data visualization expertise to create web solutions that I hope are pretty cool. It's a work in progress, but I'm always excited to learn and grow in this field.
+            </p>
+            
+          <div className='about-years-container'>
+            <h1 className='about-years'>3+ years</h1>
+            <h4 className='about-years-description'>Web Dev Experience</h4>
 
-        <h1 className='about-years'>7+ years</h1>
-        <h4 className='about-years-description'>Traveling and Working Around The World</h4>
+            <h1 className='about-years'>7+ years</h1>
+            <h4 className='about-years-description'>Traveling and Working Around The World</h4>
 
-        <h1 className='about-years'>10+ years</h1>
-        <h4 className='about-years-description'>Architectural Design</h4>
-</div>
-
-
+            <h1 className='about-years'>10+ years</h1>
+            <h4 className='about-years-description'>Architectural Design</h4>
+          </div>
+          </div>
+        </div>
       </div>
       </>
     )

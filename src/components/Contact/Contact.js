@@ -34,6 +34,7 @@ const Contact = () => {
     <>
   
     <section className="contact-container-form">
+      <h4>Let's build something together</h4>
       <h1 className="contact-me">Contact Me</h1>
       <StyledContactForm>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
