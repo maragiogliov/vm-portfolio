@@ -88,12 +88,8 @@
 
   @media only screen and (min-width: 1024px) {
     .about-victor-image {
-  
       height: 550px;
-  
     }
-  
-
   }
   .about-right h2{
     font-size: var(--spacing-md);

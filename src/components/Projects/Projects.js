@@ -88,7 +88,7 @@ export default function Projects() {
 
         <h4 className='projects-collaborations'>Collaborations</h4>
         <h1 className='projects-recent'>Recent Projects</h1>
-        <div className='chips-container'>
+        <div className='chips-container-top'>
           {uniqueTechnologies.map((technology, index) => (
             <div
               key={index}
