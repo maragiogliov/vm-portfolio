@@ -1,6 +1,6 @@
 .contact-container-form{
     width: 100%;
-    height: calc(100vh - 3rem);
+    min-height: calc(100vh - 3rem);
     background-color: var(--tertiary-color); 
     color: azure;
 
