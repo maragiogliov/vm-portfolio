@@ -65,7 +65,6 @@
     align-items: center;
     text-align: center;
 
-    max-height: 100vh;
     margin-top: var(--spacing-md);
     transition: transform 0.9s ease;
 
