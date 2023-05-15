@@ -18,7 +18,7 @@ export default function About() {
           <div className='about-right'>
             <h2>Hey!</h2>
             <p>
-             I'm a Junior Frontend Developer living in Berlin,  creating websites with HTML, SCSS, JavaScrip, React, Express, Node.js, PosgradeSQL.
+             I'm a Junior Frontend Developer living in Berlin,  creating websites with HTML, SCSS, JavaScript, React, Express, Node.js, PosgradeSQL.
 
             </p>
             <br/>
