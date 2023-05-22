@@ -45,8 +45,12 @@
 
 .contact-me{
     font-family: 'Roboto', sans-serif;
-    font-size: var(--spacing-md);
+    font-size: 40px;
     color: var(--secondary-color);
+}
+
+h4{
+    font-size: 20px;
 }
 
 

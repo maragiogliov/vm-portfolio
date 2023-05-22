@@ -1,11 +1,10 @@
 .project-container{
     width: 100%;
     background-image:
-    linear-gradient(0deg, rgba(14, 14, 14, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26, 25, 25, 0.1) 1px, transparent 1px);
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
     background-size: 50px 50px; 
-    background-color: white;
-
+    background-color: rgb(13, 13, 13);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,13 +35,13 @@
 /* -------------------------------------------------------- */
 .projects-collaborations{
     font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
+    font-size: 20px;
     margin-top: var(--spacing-md);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .projects-recent{
     font-family: 'Roboto', sans-serif;
-    font-size: var(--spacing-md);
+    font-size: 40px;
     margin-bottom: var(--spacing-md);
     color: var(--secondary-color)
 }
