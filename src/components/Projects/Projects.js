@@ -5,9 +5,22 @@ import cvDesign from '../../assets/xvcwebsite.png'
 import mothercode from '../../assets/mothercode.png'
 import greenhousecalculator from '../../assets/greenhousecalculator.png'
 import vportfolio from '../../assets/v-portfolio.png'
+import thebarn from '../../assets/3-devices-black.png'
 
 
 const projects = [
+  {
+    name: 'The Barn Coffee',
+    description: 'Transformed Shopify architecture, improved UX by app management. Enhanced products with metafields, extracted insights from reports. Crafted responsive interfaces, collaborated cross-functionally at The Barn Coffee Roasters.',
+    image: thebarn,
+    technologies: [ 'Shopify','UI'],
+    buttons: [
+      {
+        text: 'Web',
+        url: 'https://thebarn.de/'
+      },
+    ]
+  },
   {
     name: 'V.PORTFOLIO',
     description: 'This is my personal portfolio where you can check my latest work and more about my journey and who I am.',
