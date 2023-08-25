@@ -18,12 +18,12 @@ export default function About() {
           <div className='about-right'>
             <h2>Hey!</h2>
             <p>
-             I'm a Junior Frontend Developer living in Berlin,  creating websites with HTML, SCSS, JavaScript, React, Express, Node.js, PosgradeSQL.
+            I'm a Junior Front-End Developer with a passion for coding and an eye for UX/UI design. My journey has taken me through various experiences, from traveling and volunteering around Europe to settling in Berlin to pursue my interest in coding.  
 
             </p>
             <br/>
             <p>
-            I enjoy design and I take UX/UI as a fundamental part of the creation of websites, we need research and prototypes. We need to test and iterate. 
+            Currently, I'm working with Shopify Liquid Template Language, proficiently re-structuring Shopify's Liquid architecture for enhanced performance and scalability. 
             </p>
             <br/>
 
