@@ -52,10 +52,28 @@
 h4{
     font-size: 20px;
 }
+.contactme-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
 
+}
+.contactme-feelfree{
+    text-align: center;
+}
 
 @media only screen and (min-width: 600px) {
     .contact-container-form{
       max-width: var(--width-sm);
+    }
+    .contactme-list{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+    
     }
   }
