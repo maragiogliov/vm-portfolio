@@ -4,8 +4,8 @@ import { ReactComponent as BehanceIcon } from '../../assets/behance-icon.svg';
 import { ReactComponent as GithubIcon } from '../../assets/github-icon.svg';
 import { ReactComponent as LinkedinIcon } from '../../assets/linkedin-icon.svg';
 
-import resume from '../../assets/Resume_2023.pdf';
-import lebenslauf from '../../assets/Lebenslauf_2023.pdf';
+import resume from '../../assets/Victor_Maragioglio_Resume_2024.pdf';
+import lebenslauf from '../../assets/Victor_Maragioglio_Lebenslauf_2024.pdf';
 
 export default function Landing() {
   return (
